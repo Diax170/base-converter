@@ -1,0 +1,24 @@
+What are bases?
+Bases are simply counting systems.
+
+Base 10 is a decimal system that we know well. As the name implies, there are 10 digits, which are 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Each time we pass 9, we add a new digit and reset 9 back to 0.
+
+Base 2 is a binary system that is often used in computers. There are only 0s and 1s. Similar to base 10, each time we pass 1, we add a new digit, so 1 is 1, 2 is 10, 3 is 11, 4 is 100, and so on.
+
+Base 8 is octal base, where there are 8 digits, so 8 will come out as 10.
+Base 16 is the hexadecimal base, often used when working with colors.
+
+Specification:
+There are 36 bases supported by this converter (2-36).
+The starting base can be 0 if the number starts with 0b (binary), 0o (octal) or 0x (hexadecimal).
+
+Base substitutions available:
+- bases.b_int - 10
+- bases.b_dec - 10
+- bases.b_bin - 2
+- bases.b_oct - 8
+- bases.b_hex - 26
+- bases.b_min - 2
+- bases.b_max - 36
+
+List of digits: 0123456789abcdefghijklmnopqrstuvwxyz
